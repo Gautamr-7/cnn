@@ -1,4 +1,6 @@
 # CNN From Scratch (NumPy) — with Gradient Checking & im2col Benchmarking
+<img width="1200" height="564" alt="image" src="https://github.com/user-attachments/assets/5dcf3932-b2f9-4345-a8e7-3837a8f3dd32" />
+
 
 A convolutional neural network implemented entirely in NumPy — no autograd,
 no `torch.nn` — built to actually understand backpropagation through
