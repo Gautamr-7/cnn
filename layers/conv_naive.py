@@ -143,7 +143,9 @@ class MaxPool2DNaive:
         ps, s = self.pool_size, self.stride
         _, _, H_out, W_out = dout.shape
 
+        #initializing dx array that needs gradients filling
         dx = np.zeros(x_shape)
+        
         for n in range(N):
             for c in range(C):
                 for i in range(H_out):
