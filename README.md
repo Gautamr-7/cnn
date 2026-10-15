@@ -144,11 +144,7 @@ python3 train.py --epochs 5 --batchnorm --dropout --optimizer adam
 python3 cross_check_torch.py
 ```
 
-## What I learned
-
-*(Write this yourself once you've actually trained on real MNIST and run
-the ablations — this section is the one a reference repo can't hand you,
-since it's about what surprised you, not what the code does.)*
+##   Testing CONV NAIVE vs IM2COL
 
 <img width="1523" height="389" alt="image" src="https://github.com/user-attachments/assets/27880ef8-098a-4678-811b-5bc00e19721a" />
 
