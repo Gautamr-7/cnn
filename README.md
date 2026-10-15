@@ -150,7 +150,10 @@ python3 cross_check_torch.py
 the ablations — this section is the one a reference repo can't hand you,
 since it's about what surprised you, not what the code does.)*
 
-## References
+<img width="1523" height="389" alt="image" src="https://github.com/user-attachments/assets/27880ef8-098a-4678-811b-5bc00e19721a" />
+
+
+## Reference
 
 - LeCun et al., 1998 — [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf) (LeNet-5)
 - Ioffe & Szegedy, 2015 — [Batch Normalization](https://arxiv.org/abs/1502.03167)
