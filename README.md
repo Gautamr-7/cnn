@@ -17,6 +17,9 @@ convolution and a max-pool, and (2) why convolution is implemented as a
 matrix multiply (im2col) rather than literal nested loops, for speed. This
 repo implements both versions and proves their equivalence.
 
+<img width="1910" height="945" alt="image" src="https://github.com/user-attachments/assets/a09af18e-cec1-4638-bc61-0194cf08b1c7" />
+
+
 ## Core idea
 
 - **Naive conv**: for every output position, take the dot product of the
