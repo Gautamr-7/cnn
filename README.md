@@ -118,15 +118,8 @@ over naive nested loops at these sizes — this is the concrete answer to
 
 ## Ablation experiments
 
-*(Fill in after running `train.py` on real MNIST — see Setup below)*
+<img width="1523" height="389" alt="image" src="https://github.com/user-attachments/assets/27880ef8-098a-4678-811b-5bc00e19721a" />
 
-| Config | Train acc | Test acc | Notes |
-|---|---|---|---|
-| Baseline | | | |
-| + BatchNorm | | | |
-| + Dropout | | | |
-| SGD vs SGD+Momentum vs Adam | | | |
-| He init vs Xavier init | | | |
 
 ## Setup
 
@@ -146,10 +139,6 @@ python3 train.py --epochs 5 --batchnorm --dropout --optimizer adam
 # cross-check against PyTorch (requires torch)
 python3 cross_check_torch.py
 ```
-
-##   Testing CONV NAIVE vs IM2COL
-
-<img width="1523" height="389" alt="image" src="https://github.com/user-attachments/assets/27880ef8-098a-4678-811b-5bc00e19721a" />
 
 
 ## Reference
